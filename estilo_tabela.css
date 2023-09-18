@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* YAYA */
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Orbitron&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: coral; */
+    background-image: url("ubuntu4.jpg"); 
+
+}
+table{
+    width: 100%;
+    height: 100%;
+    border: 1px rgb(26, 10, 245)  ;
+    text-align: center;
+    border-spacing: 0px;
+}
+td{
+    border: 3px solid rgb(21, 19, 139);
+    padding: 6px;
+    color: rgb(8, 11, 14);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+
+}
+#linux{
+    color: rgb(211, 214, 13);
+    font-size: 3em;
+    font-family: 'Orbitron';
+    font-weight: 700;
+}
+.ubuntu{
+color: rgb(25, 7, 192);
+font-size: 1.3em;
+font-size: 28px;
+
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+    
