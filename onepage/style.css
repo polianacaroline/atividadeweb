@@ -1,0 +1,57 @@
+@charset "UTF8-8";
+*{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body{
+    font-size: 1em;
+}
+
+.container{
+    margin: 0 auto;
+}
+#topo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+#logo img{
+    width: 128px;
+    height: 128px;
+}
+header{
+    height: 60px;
+}
+/* Smartphone Portrait*/
+
+@media (min-width: 576px) {
+    body{
+        background-color: rgb(247, 128, 128);
+    }
+
+    .container {
+        max-width: 540px;
+        background-color: rgba(192, 87, 233, 0.249);
+    }
+}
+
+ 
+
+/* Tablet Portrait */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+        background-color: rgba(56, 109, 109, 0.249);
+    }
+}
+/* pc */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        background-color: rgba(168, 4, 86, 0.249);
+    }
+}
