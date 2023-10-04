@@ -10,6 +10,15 @@
 body{
     font-size: 1em;
 }
+.botao{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3em;
+    background-color: deeppink;
+    padding: 10px 40px;
+    border: 2px floralwhite;
+    border-radius: 25px;
+}
 
 .container{
     margin: 0 auto;
@@ -26,6 +35,20 @@ body{
 header{
     height: 60px;
 }
+#check{
+display: none;
+
+
+}
+label{
+    font-size: 3em;
+    position: fixed;
+    top: 5px;
+    color: blue;
+    right: 15px;
+
+
+}
 /* Smartphone Portrait*/
 
 @media (min-width: 576px) {
@@ -38,7 +61,6 @@ header{
         background-color: rgba(192, 87, 233, 0.249);
     }
 }
-
  
 
 /* Tablet Portrait */
@@ -54,4 +76,16 @@ header{
         max-width: 1140px;
         background-color: rgba(168, 4, 86, 0.249);
     }
+    head{
+        height: 120px;
+    }
+}
+#logo img{
+    width: 189px;
+    height: 189px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+label{
+display: none;
 }
